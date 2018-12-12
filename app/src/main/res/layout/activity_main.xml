@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.e_learning.MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/yuin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIVERSITAS ISLAM NEGERI"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUNAN KALIJAGA"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOGYAKARTA"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="80dp"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:text="Home"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:drawableLeft="@drawable/ic1_assignment_black_24dp"
+        android:text="Mata Kuliah"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:drawableLeft="@drawable/ic_event_available_black_24dp"
+        android:text="Tugas"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:drawableLeft="@drawable/ic_folder_black_24dp"
+        android:text="quiz"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:drawableLeft="@drawable/ic_exit_to_app_black_24dp"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+
+
+</LinearLayout>
+</RelativeLayout>
